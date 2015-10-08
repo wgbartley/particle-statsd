@@ -2,7 +2,7 @@ var https = require('https'),
     fs    = require('fs'),
     udp   = require('dgram').createSocket('udp4');
 
-var ACCES_TOKEN = fs.readFileSync('./ACCESS_TOKEN').toString().trim();
+var ACCESS_TOKEN = fs.readFileSync('./ACCESS_TOKEN').toString().trim();
 
 var opts = {
 	hostname: 'api.particle.io',
