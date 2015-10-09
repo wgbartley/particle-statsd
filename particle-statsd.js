@@ -57,6 +57,7 @@ function stats_parse(data) {
 		var semicolon_split = data.data.split(';');
 		device_name = semicolon_split[0];
 		data.data = semicolon_split[1];
+
 	// If no custom device name, use the coreid instead
 	} else
 		device_name = data.coreid;
