@@ -9,7 +9,7 @@ Options
 Options are now set via environment variables.  Available options are:
 
  - `ACCESS_TOKEN` - (Required) Your Particle cloud access token
- - `EVENT_NAME` - The name of the event to listen for
+ - `EVENT_NAME` - The name of the event to listen for - default: `statsd`
  - `METRIC_PATH` - The metric path prefix for Graphite - default: `particle`
  - `STATSD_HOST` - The hostname or IP address of your StatsD instance - default: `127.0.0.1`
  - `STATSD_PORT` - The UDP port of your StatsD instance - default: `8125`
