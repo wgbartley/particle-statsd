@@ -4,6 +4,15 @@ particle-statsd
 A simple Node.JS daemon that listens for published events on your Particle event stream, parses them, and pushes them to StatsD.
 
 
+Installation
+------------
+
+1. Clone this repository
+2. Change to repo directory (`cd particle-statsd`)
+3. Run `npm install` to install dependencies
+4. Run using `node particle-statsd.js` or use any process manager (nodemon, foreverjs, pm2)
+
+
 Options
 -------
 Options are now set via environment variables.  Available options are:
