@@ -1,4 +1,10 @@
 {
+  "name": "particle-statsd",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wgbartley/particle-statsd.git"
+  },
   "dependencies": {
     "spark": "^1.0.0"
   }
