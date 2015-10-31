@@ -37,7 +37,7 @@ function subscribe_event() {
 
 	// Subscribe
 	var req = spark.getEventStream(EVENT_NAME, 'mine', function(data) {
-		//stats_parse(data);
+		stats_parse(data);
 	});
 
 	// Re-subscribe
