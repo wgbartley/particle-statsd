@@ -22,7 +22,8 @@ Options are now set via environment variables.  Available options are:
  - `METRIC_PATH` - The metric path prefix for Graphite - default: `particle`
  - `STATSD_HOST` - The hostname or IP address of your StatsD instance - default: `127.0.0.1`
  - `STATSD_PORT` - The UDP port of your StatsD instance - default: `8125`
-
+ - `FORWARD_SPARK` - Parse `spark/*` events. `0` = Disable, Any other value = Enable - default: `1`
+ - `SPARK_PATH` - The metric path prefix for `spark/*` events - default: `spark`
 
 Data format
 -----------
