@@ -46,7 +46,7 @@ function subscribe_event() {
 		console.time('subscribe');
 
 		// Re-subscribe in 1 second
-		setTimeout(subscribe_events, 1000);
+		setTimeout(subscribe_event, 1000);
 	});
 }
 
